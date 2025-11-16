@@ -4,7 +4,7 @@ Mini game feito em HTML, CSS e JavaScript para treinar manipulação de DOM.
 O objetivo é clicar no alvo que se move pela tela e fazer o máximo de pontos antes do tempo acabar.
 
 ## 🎮 Demonstração
-![./screenshot.png]
+![Imagem do jogo](./screenshot.png)
 
 ## 🚀 Tecnologias
 - HTML
