@@ -1,0 +1,83 @@
+<!--Na tela aparece um circulo (div)
+cada vez que é clicado:
+  a pontuaçãp aumenta
+  o alvo muda de posição de forma aleatória
+depois de 10 seg, o jogo te mostra sua pontuação final
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do Clique</title>
+  <style>
+    body{
+      font: normal 18px Arial;
+      background-color: rgb(26, 33, 35);
+      color: white;
+    }
+
+    #target{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(219, 52, 52);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    #start-btn{
+      padding: 10px 20px;
+      font-size: 16px;
+      font: bold 16px Arial;
+      cursor: pointer;
+      margin-bottom: 20px;
+      background-color: rgb(52, 219, 119);
+      border: none;
+      border-radius: 5px;
+    }
+
+    #finalScore{
+      width:  300px;
+      height:  90px;
+      background-color: aliceblue;
+      color: black;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 24px;
+      font: bold 20px Arial;
+      padding: 10px;
+      display: none;
+    }
+
+    #scoreDisplay{
+      font-size: 32px;
+      color: rgb(219, 52, 52);
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<h1">CliqueMania</h1>
+<p>
+  Teste seu reflexo e rapidez! Clique no botão o máximo de vezes que puder em 10 segundos.
+</p>
+<button id="start-btn">Começar</button>
+<div id="target">
+  Clique!
+</div>
+
+<div id="finalScore">
+  Sua pontuação final é: <span id ="scoreDisplay">
+    0
+  </span>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
