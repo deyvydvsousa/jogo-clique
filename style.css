@@ -1,0 +1,48 @@
+body{
+      font: normal 18px Arial;
+      background-color: rgb(26, 33, 35);
+      color: white;
+    }
+
+    #target{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(219, 52, 52);
+      border-radius: 50%;
+      position: absolute;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    #start-btn{
+      padding: 10px 20px;
+      font-size: 16px;
+      font: bold 16px Arial;
+      cursor: pointer;
+      margin-bottom: 20px;
+      background-color: rgb(52, 219, 119);
+      border: none;
+      border-radius: 5px;
+    }
+
+    #finalScore{
+      width:  300px;
+      height:  90px;
+      background-color: aliceblue;
+      color: black;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 24px;
+      font: bold 20px Arial;
+      padding: 10px;
+      display: none;
+    }
+
+    #scoreDisplay{
+      font-size: 32px;
+      color: rgb(219, 52, 52);
+      display: block;
+    }
